@@ -1,0 +1,122 @@
+
+body{
+    margin: 10%;;
+    padding: 0;
+    background-color: #f2f2f5;
+}
+.full
+{
+background-color:rgb(229,234,249);
+height:100vh;
+width:100px;
+}
+.left
+{
+    height: 100vh;
+    width: 50%;
+    float:left;
+
+    font-family:helvetica Neue,Helvetica,Arial, sans-serif;
+    font-size: 32px;
+}
+.right
+{
+    height: 100vh;
+    width: 50%;
+    float: left;
+}
+.container {
+    padding:15px;
+    min-height: 100vh;
+    justify-content: center;
+    background: #f0f2f5;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  form {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+      0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    margin-top: -40px;
+  }
+    form input {
+        height: 55px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: px;
+        font-size: 1rem;
+        padding: 0 14px;
+      }
+  button
+{
+    background-color:rgba(69, 58, 228, 0.979);
+    color: white;
+    height: 45px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 1px;
+    font-size: 1rem;
+    padding: 0 14px;
+}
+.account
+{
+    background-color: rgb(22, 170, 22);
+    color: white;
+    height: 46px;
+    width: 5                                                                                                                                                                                                                                                                                                                                                                            6%;
+    margin:0 auto;
+
+}
+hr
+{
+  color: grey;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+.image{
+  width: 300px;
+  height: 101px;
+}
+.logo{
+  height: 106px;
+  width: 301.06px;
+  margin-left: -26px;
+  margin-top: 40px;
+}
+.para{
+  font-family: SFProDisplay-Regular, Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: -10px;
+  font-weight: normal;
+  width: 500px;
+  padding: 0 0  20px;
+  color: #1c1c21;
+  margin-top: -15px;
+}
+.forgot {
+  text-decoration: none;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.forgot:hover {
+text-decoration: underline;
+}
+
+.new:hover{
+  background-color: rgb(50, 158,35);
+}
